@@ -37,7 +37,7 @@ steps:
 
 substitutions:
     #GCP Specific configuration. Please DON'T change anything
-    _PROJECT: java-app
+    _PROJECT: java-app-315716
     _ZONE: us-central1-a
     _GKE_CLUSTER: java-app
     
