@@ -13,7 +13,7 @@
 # limitations under the License.
 
 steps:
-  
+   
   - name: gradle:5.6.2-jdk8
     entrypoint: gradle
     args: ["test"]
@@ -35,7 +35,7 @@ steps:
     - 'CLOUDSDK_COMPUTE_ZONE=${_ZONE}'
     - 'CLOUDSDK_CONTAINER_CLUSTER=${_GKE_CLUSTER}'
 
-    substitutions:
+substitutions:
     #GCP Specific configuration. Please DON'T change anything
     _PROJECT: java-app
     _ZONE: us-central1-a
