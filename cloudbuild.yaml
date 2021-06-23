@@ -40,7 +40,7 @@ steps:
 substitutions:
     #GCP Specific configuration. Please DON'T change anything
     _PROJECT: java-app-315716
-    _ZONE: us-central1-a
+    _ZONE: us-east4
     _GKE_CLUSTER: java-app
     
     #Repository Specific configuration. DevOps can change this settings
