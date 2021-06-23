@@ -41,7 +41,7 @@ substitutions:
     #GCP Specific configuration. Please DON'T change anything
     _PROJECT: java-app-315716
     _ZONE: us-east4
-    _GKE_CLUSTER: java-app
+    _GKE_CLUSTER: cluster-1
     
     #Repository Specific configuration. DevOps can change this settings
     _DEPLOYMENTNAME: hello-world-service
